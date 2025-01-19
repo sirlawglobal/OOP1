@@ -11,7 +11,7 @@ Cases:
   - ManageMembers
 
 
-Class: Book
+Class: Book:
 Attributes:
   - bookId (String)
   - title (String)
@@ -21,7 +21,7 @@ Methods:
   - updateAvailability()
 
 
-Class: Member
+Class: Member:
 Attributes:
   - memberId (String)
   - name (String)
@@ -30,7 +30,7 @@ Methods:
   - borrowBook()
   - returnBook()
 
-Class: Librarian
+Class: Librarian:
 Attributes:
   - liberianId (String)
   - name (String)
@@ -39,7 +39,7 @@ Methods:
   - manageMember()
 
 
-Class: Library
+Class: Library:
 Attributes:
   - books (String)
   - members (String)
