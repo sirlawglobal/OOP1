@@ -11,7 +11,7 @@ Cases:
   - ManageMembers
 
 
-Class: Book:
+#Class: Book:
 Attributes:
   - bookId (String)
   - title (String)
